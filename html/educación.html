@@ -25,7 +25,85 @@
     <a href="../index.html">Inicio</a>|Educación|<a href="experiencia.html">Experiencia</a>
   </nav>
   <h2><u>Educación</u></h2>
-
+  <article>
+  <table border="1" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2009</td>
+          <td>Francisco de Asís (Secundario)</td>
+          <td>Merlo, Buenos Aires, Argentina</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Centro de Estudios Morón (Técnico Reparador de PC)</td>
+          <td>Morón, Buenos Aires, Argentina</td>
+          <td>No (en curso)</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>UTN (Ingeniería en Sistemas)</td>
+          <td>Villa Lugano, Buenos Aires, Argentina</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>NextU (Desarrollador WEB)</td>
+          <td>Universidad Online</td>
+          <td>No (en curso)</td>
+        </tr>
+      </tbody>
+  </table>
+</article>
+<article>
+  <h3>Agregar Estudios</h3>
+  <form name="Formulario agregar estudios" title="Formulario para agregar estudios">
+    <fieldset>
+      <label for="año"><b>Año:</b></label>
+      <select name="año" id="año">
+        <option>2025</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option selected>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+        <option>2009</option>
+        <option>2008</option>
+        <option>2007</option>
+        <option>2006</option>
+        <option>2005</option>
+        <option>2004</option>
+        <option>2003</option>
+      </select>
+      <br>
+      <label for="inst"><b>Institución:</b></label>
+      <input type="text" name="Institución" id="inst" required>
+      <br>
+      <label for="lug"><b>Lugar:</b></label>
+      <textarea type="text" name="Lugar" rows="-2" cols="20" id="lug"></textarea>
+      <p></p>
+      <input type="submit" name="Enviar" value="Enviar">
+    </fieldset>
+  </form>
+</article>
   <footer>
       <p>
         <strong title="Datos de Contacto">Contacto</strong>
